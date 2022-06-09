@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import filedialog, messagebox
 
-operator = ''
+#operator = ''
 
 # Functions
 #def function_print1():

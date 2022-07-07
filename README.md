@@ -1,5 +1,5 @@
 # tkinter-template
-A tkinter template with modern IU for small python projects. It can be useful for litle python projects, like scrapping apps, file converters, etc. I made it for personal use, but then I thought it could be useful for someone else too.
+A tkinter template with modern IU for small python projects. It can be useful for little python projects, like scrapping apps, file converters, etc. I made it for personal use, but then I thought it could be useful for someone else too.
 
 This is how it looks like:
 ![Image from a screenshot of the template](./images/template.png)

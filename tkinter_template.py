@@ -18,14 +18,13 @@ font = 'Inter'
 # init tkinter
 win = Tk()
 
-
 # Window size
 
 win.geometry('800x400')
 
 # Don't maximize
 
-win.resizable(0, 0)
+win.resizable(False, False)
 
 # Window title
 win.title('My browser application')
@@ -65,7 +64,7 @@ description_label = Label(description_frame,
                                 text='Description of the aplication',
                                 font=(font, 12, 'bold'),
                                 bg= dark,
-                                fg=light,
+                                fg=accent,
                                 pady = 10)
 
 description_label.grid(row=0, column=0)
@@ -103,6 +102,7 @@ button_a = Button(buttoms_frame,
             text= 'Button number one',
             font = (font, 12, 'bold'),
             fg= light,
+            activebackground=accent,
             bg= dark,
             width=15,
             
@@ -114,6 +114,7 @@ button_b = Button(buttoms_frame,
             text= 'Button number two',
             font = (font, 12, 'bold'),
             fg= light,
+            activebackground=accent,
             bg= dark,
             width=15)
 

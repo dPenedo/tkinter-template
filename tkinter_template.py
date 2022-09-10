@@ -16,13 +16,17 @@ font = 'Inter'
 
 
 # init tkinter
-win = Tk()
+
+
+win = Tk ()
 
 # Window size
+
 
 win.geometry('800x400')
 
 # Don't maximize
+
 
 win.resizable(False, False)
 

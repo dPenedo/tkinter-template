@@ -24,5 +24,3 @@ Edit the file adding the functions you want to use at the beggining. Then link t
 ## Customization:
 
 Colors and font are declared on variables at the begining of the file.
-
-
